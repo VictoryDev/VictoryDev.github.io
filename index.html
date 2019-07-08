@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Raw Studio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://kit.fontawesome.com/44555d9723.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <div class="menu-btn">
+            <ion-icon id="menu-btn" name="menu"></ion-icon>
+          </div>
+          <div class="logo-wrapper">
+            <div class="logo-text">
+              <a href="/"
+                >raw <br />
+                <p id="studio">studios</p></a
+              >
+            </div>
+            <h2>CULTURE OF DESIGN, INNOVATION, & FASHION.</h2>
+          </div>
+        </div>
+        <div class="nav">
+          <ul>
+            <li><a id="homelink" href="">Home</a></li>
+            <li><a id="teamlink" href="">Team</a></li>
+            <li><a id="gallerylink" href="">Galleries</a></li>
+            <li><a id="shoplink" href="">Shop</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div id="homehtml">
+      <section id="slideshow">
+        <div class="container">
+          <div class="slideshow">
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <img src="./img/manhattan.jpg" />
+              </div>
+
+              <div class="mySlides fade">
+                <img id="oddball" src="./img/white_brick_wall.jpg" />
+              </div>
+
+              <div class="mySlides fade">
+                <img src="./img/tianjin.jpg" />
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container">
+          <div class="about">
+            <h4>About Raw Studios</h4>
+            <span class="line-holder"></span>
+          </div>
+          <div class="about-p-wrapper">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              est dicta quibusdam voluptates nesciunt, consequuntur quo qui
+              reiciendis rem deserunt cumque, facere eligendi iste. Quisquam
+              eaque nostrum voluptas rem dolores!Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Dolorum est dicta quibusdam
+              voluptates nesciunt, consequuntur quo qui reiciendis rem deserunt
+              cumque, facere eligendi iste. Quisquam eaque nostrum voluptas rem
+              dolores!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dolorum est dicta quibusdam voluptates nesciunt, consequuntur quo
+              qui reiciendis rem deserunt cumque, facere eligendi iste. Quisquam
+              eaque nostrum voluptas rem dolores!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              est dicta quibusdam voluptates nesciunt, consequuntur quo qui
+              reiciendis rem deserunt cumque, facere eligendi iste. Quisquam
+              eaque nostrum voluptas rem dolores!Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Dolorum est dicta quibusdam
+              voluptates nesciunt, consequuntur quo qui reiciendis rem deserunt
+              cumque, facere eligendi iste. Quisquam eaque nostrum voluptas rem
+              dolores!Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dolorum est dicta quibusdam voluptates nesciunt, consequuntur quo
+              qui reiciendis rem deserunt cumque, facere eligendi iste. Quisquam
+              eaque nostrum voluptas rem dolores!
+            </p>
+            <br />
+            <button class="button button-index">
+              <a href="#">BOOK APPOINTMENT</a>
+            </button>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="about">
+              <h4>Our Team</h4>
+              <span class="line-holder"></span>
+              <h1 style="font-weight:bolder">
+                Raw Studios has a team of highly trained colorists & stylists
+                ready to cut & color until you achieve your hair goals.
+              </h1>
+            </div>
+            <br />
+            <br />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="team-container">
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/dog1.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/pugBlanket.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/pugSad.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/puppySleepy.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/welshCorgi.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/puppySleepy.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/pugSad.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/dog1.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/welshCorgi.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/pugBlanket.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="galleryhtml">
+      <section id="gallery">
+        <div class="container-gallery">
+          <div class="rellax gallery1" data-rellax-speed="8">
+            <img src="./img/behindTheChair.png" alt="model2" />
+            <div class="side-right">
+              <h1>Event Name Here</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Provident hic ducimus excepturi dolorem! Unde eum vero labore
+                mollitia animi itaque harum, cupiditate sapiente doloribus magni
+                maiores quia minus commodi aperiam, quis asperiores
+                voluptatibus! Officiis blanditiis autem repellat ab commodi
+                perspiciatis nobis sunt laboriosam quos minus. Reprehenderit
+                aliquid recusandae fugit nam.
+              </p>
+            </div>
+          </div>
+          <div class="rellax gallery2" data-rellax-speed="8">
+            <div class="side-left">
+              <h1>Event Name Here</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Provident hic ducimus excepturi dolorem! Unde eum vero labore
+                mollitia animi itaque harum, cupiditate sapiente doloribus magni
+                maiores quia minus commodi aperiam, quis asperiores
+                voluptatibus! Officiis blanditiis autem repellat ab commodi
+                perspiciatis nobis sunt laboriosam quos minus. Reprehenderit
+                aliquid recusandae fugit nam.
+              </p>
+            </div>
+            <img src="./img/behindTheChair.png" alt="model2" />
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="teamhtml">
+      <section>
+        <div class="colorist-container">
+          <h1>Colorists</h1>
+        </div>
+      </section>
+      <section>
+        <div class="team-container">
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/dog1.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/pugBlanket.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/pugSad.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/puppySleepy.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/welshCorgi.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/puppySleepy.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/pugSad.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/dog1.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/welshCorgi.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+          <div class="team-members">
+            <div class="imgBox">
+              <img src="./img/pugBlanket.jpg" alt="dog" />
+            </div>
+            <div class="content">
+              <h2>Image Name</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                harum culpa quo deleniti labore similique nulla unde fugiat
+                minus aut incidunt ipsam obcaecati, illo deserunt pariatur iure,
+                quasi laborum nisi.
+              </p>
+              <button class="button button-team">
+                <a href="#">BOOK APPOINTMENT</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="shophtml">
+      <section id="story">
+        <h1>From Humble Beginnings</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          nesciunt sequi eos qui. Itaque sint quia est ut repudiandae fuga
+          asperiores alias nostrum distinctio dolore atque voluptatem quos,
+          aspernatur suscipit?Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Blanditiis maxime enim illo nihil nisi vitae velit
+          maiores ab, molestiae aut nobis dolorum. Minus natus provident
+          laudantium modi culpa vitae distinctio neque, pariatur ratione,
+          eligendi quos esse magni accusamus sunt quo, ab voluptates
+          necessitatibus atque est labore? Eaque quasi officia cupiditate
+          aliquam pariatur cum expedita possimus enim nesciunt! Harum quas
+          praesentium adipisci nulla. Repellendus doloribus nulla blanditiis
+          fugiat quos, hic saepe nam in a, ratione inventore minima repellat
+          iste ea? Vero corporis, maiores eveniet doloremque sit dolores
+          temporibus! Unde nostrum harum, iste nihil, voluptas ex eum
+          accusantium, sunt hic omnis pariatur!
+        </p>
+      </section>
+    </div>
+
+    <footer>
+      <div class="copyright">
+        <div class="footer-wrapper">
+          <p>© Raw Studios</p>
+        </div>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/theniksters/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/niki.diemnguyen"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./js/rellax.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#galleryhtml").hide();
+        $("#teamhtml").hide();
+        $("#shophtml").hide();
+
+        $(".menu-btn").click(function() {
+          $(".nav").toggleClass("active");
+        });
+        $("#homelink").click(function(e) {
+          e.preventDefault();
+          $("#homehtml").show();
+          $("#galleryhtml").hide();
+          $("#teamhtml").hide();
+          $("#shophtml").hide();
+        });
+        $("#gallerylink").click(function(e) {
+          e.preventDefault();
+          $("#galleryhtml").show();
+          $("#homehtml").hide();
+          $("#teamhtml").hide();
+          $("#shophtml").hide();
+        });
+        $("#teamlink").click(function(e) {
+          e.preventDefault();
+          $("#teamhtml").show();
+          $("#galleryhtml").hide();
+          $("#homehtml").hide();
+          $("#shophtml").hide();
+        });
+        $("#shoplink").click(function(e) {
+          e.preventDefault();
+          $("#shophtml").show();
+          $("#galleryhtml").hide();
+          $("#teamhtml").hide();
+          $("#homehtml").hide();
+        });
+      });
+    </script>
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+  </body>
+</html>
